@@ -1,0 +1,116 @@
+ /* --- Estilos Generales --- */
+ body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f4f7f6;
+    color: #555;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* --- Contenedor Principal de la Invitación --- */
+.invitacion-container {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    border-top: 8px solid #a0c4ff; /* Un toque de color azul bebé */
+}
+
+/* --- Encabezado --- */
+.header {
+    padding: 30px 20px;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin: 0;
+    font-weight: 300;
+}
+
+.header h2 {
+    font-size: 1.5em;
+    color: #888;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+/* --- Imagen del Bebé --- */
+.bebe-foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Foto redonda */
+    object-fit: cover;
+    border: 5px solid #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* --- Sección de Detalles del Evento --- */
+.detalles {
+    padding: 20px 30px;
+    background-color: #fdfdfd;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.detalles h3 {
+    font-size: 1.4em;
+    color: #a0c4ff;
+    margin-top: 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eef;
+    padding-bottom: 10px;
+}
+
+.detalles p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.detalles strong {
+    color: #333;
+}
+
+/* --- Sección de Confirmación (RSVP) --- */
+.rsvp {
+    padding: 30px 20px;
+}
+
+.rsvp p {
+    font-size: 1em;
+    margin-bottom: 25px;
+}
+
+.rsvp-button {
+    display: inline-block;
+    background-color: #4CAF50; /* Color verde para la confirmación */
+    color: white;
+    padding: 15px 35px;
+    text-decoration: none;
+    border-radius: 50px; /* Botón con bordes redondeados */
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.rsvp-button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+/* --- Pie de Página --- */
+.footer {
+    padding: 20px;
+    font-size: 0.9em;
+    color: #999;
+    background-color: #fafafa;
+}
