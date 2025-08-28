@@ -114,3 +114,52 @@
     color: #999;
     background-color: #fafafa;
 }
+/* --- Estilos de la Barra de Navegación --- */
+
+.navbar {
+    background-color: #81ec9a; 
+    overflow: hidden; 
+}
+
+/* Estilo de la lista que contiene los botones */
+.navbar ul {
+    list-style: none; /* Quitamos los puntos de la lista */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centramos los botones horizontalmente */
+    font-family: Kunstler Script;
+    font-size: 25pt;
+    font-weight: bold;
+}
+
+/* Estilo para cada elemento de la lista */
+.navbar li {
+    /* No se necesita mucho estilo aquí gracias a Flexbox */
+}
+
+/* Estilo de los botones (enlaces) */
+.navbar a {
+    display: block; /* Hacemos que el enlace ocupe todo el espacio del 'li' */
+    color:  #c91fc9; /* Color del texto */
+    text-align: center;
+    padding: 14px 20px; /* Relleno (arriba/abajo - izquierda/derecha) */
+    text-decoration: none; /* Quitamos el subrayado */
+    transition: background-color 0.3s; /* Transición suave para el hover */
+}
+
+/* Efecto al pasar el ratón por encima del botón */
+.navbar a:hover {
+    background-color: #f4a65c; /* Un gris un poco más claro */
+}
+
+
+/* --- La Parte Responsive --- */
+
+/* Se aplica cuando la pantalla tiene 600px de ancho o menos (móviles) 
+@media screen and (max-width: 600px) {
+    .navbar ul {
+        /* Cambiamos la dirección de Flexbox a columna 
+        flex-direction: column;
+    }
+}*/
