@@ -10,6 +10,12 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+     
+        background-image: url("../img/star.png");
+        background-size: cover; /* Cubre toda la pantalla */
+        background-repeat: no-repeat; /* No repite la imagen */
+        background-position: center center; /* Centra la imagen */
+    
 }
 
 /* --- Contenedor Principal de la Invitación --- */
