@@ -1,37 +1,10 @@
-/* --- Estilos de la Barra de Navegación --- */
-
-.navbar {
-    background-color: #b8f2e6; 
-    overflow: hidden; 
-}
-
-/* Estilo de la lista que contiene los botones */
-.navbar ul {
-    list-style: none; /* Quitamos los puntos de la lista */
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center; /* Centramos los botones horizontalmente */
-    font-family: "Indie Flower", cursive;
-    font-weight: bold; 
-}
-
-/* Estilo para cada elemento de la lista */
-.navbar li {
-    /* No se necesita mucho estilo aquí gracias a Flexbox */
-}
-
-/* Estilo de los botones (enlaces) */
-.navbar a {
-    display: block; /* Hacemos que el enlace ocupe todo el espacio del 'li' */
-    color:  #ffa69e; /* Color del texto */
-    text-align: center;
-    padding: 14px 20px; /* Relleno (arriba/abajo - izquierda/derecha) */
-    text-decoration: none; /* Quitamos el subrayado */
-    transition: background-color 0.3s; /* Transición suave para el hover */
-}
-
-/* Efecto al pasar el ratón por encima del botón */
-.navbar a:hover {
-    background-color: #aed9e0; /* Un gris un poco más claro */
+@import url(style.css);
+.restaurante-foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Foto redonda */
+    object-fit: cover;
+    border: 5px solid #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
 }

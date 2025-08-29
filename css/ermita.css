@@ -1,37 +1,33 @@
-/* --- Estilos de la Barra de Navegación --- */
+@import url(style.css);
 
-.navbar {
-    background-color: #a3ea71; 
-    overflow: hidden; 
+/* --- Imagen de la ermita --- */
+.ermita-foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Foto redonda */
+    object-fit: cover;
+    border: 5px solid #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+.contenedorMaps{
+  display: flex;               /* Usamos flexbox */
+  justify-content: center;     /* Centrar horizontalmente */
+  align-items: center;         /* Centrar verticalmente si el contenedor tiene altura */
+  width: 100%;                 /* Ocupa todo el ancho disponible */
+  margin-bottom: 10px;
 }
 
-/* Estilo de la lista que contiene los botones */
-.navbar ul {
-    list-style: none; /* Quitamos los puntos de la lista */
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center; /* Centramos los botones horizontalmente */
-    font-family: "Indie Flower", cursive;
-    font-weight: bold; 
+.maps {
+  width: 25%;                  /* El mapa ocupa el 25% del contenedor */
+  min-width: 250px;            /* Para que no se haga demasiado pequeño en móviles */
+  aspect-ratio: 16 / 9;        /* Mantiene proporción responsiva */
+  border: 0;                   /* Sin borde */
+  border-radius: 12px;         /* Opcional: bordes redondeados */
 }
 
-/* Estilo para cada elemento de la lista */
-.navbar li {
-    /* No se necesita mucho estilo aquí gracias a Flexbox */
-}
-
-/* Estilo de los botones (enlaces) */
-.navbar a {
-    display: block; /* Hacemos que el enlace ocupe todo el espacio del 'li' */
-    color:  #fa64b5; /* Color del texto */
-    text-align: center;
-    padding: 14px 20px; /* Relleno (arriba/abajo - izquierda/derecha) */
-    text-decoration: none; /* Quitamos el subrayado */
-    transition: background-color 0.3s; /* Transición suave para el hover */
-}
-
-/* Efecto al pasar el ratón por encima del botón */
-.navbar a:hover {
-    background-color: #f4a65c; /* Un gris un poco más claro */
+.description{
+    font-family: "Kunstler Script", "Indie Flower";
+    font-size: 25px;
+    font-weight: bold;
 }

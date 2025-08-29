@@ -118,7 +118,7 @@
 /* --- Estilos de la Barra de Navegación --- */
 
 .navbar {
-    background-color: #81ec9a; 
+    background-color: #a3ea71; 
     overflow: hidden; 
 }
 
@@ -129,8 +129,9 @@
     padding: 0;
     display: flex;
     justify-content: center; /* Centramos los botones horizontalmente */
-    font-family: "Indie Flower", cursive;
+    font-family: "Kunstler Script", "Indie Flower";
     font-weight: bold; 
+    font-size: 1rem;
 }
 
 /* Estilo para cada elemento de la lista */
@@ -141,7 +142,7 @@
 /* Estilo de los botones (enlaces) */
 .navbar a {
     display: block; /* Hacemos que el enlace ocupe todo el espacio del 'li' */
-    color:  #c91fc9; /* Color del texto */
+    color:  #fa64b5; /* Color del texto */
     text-align: center;
     padding: 14px 20px; /* Relleno (arriba/abajo - izquierda/derecha) */
     text-decoration: none; /* Quitamos el subrayado */
