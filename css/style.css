@@ -135,7 +135,7 @@
     padding: 0;
     display: flex;
     justify-content: center; /* Centramos los botones horizontalmente */
-    font-family: /*"Kunstler Script"*/ "Indie Flower";
+    font-family: "Indie Flower";
     font-weight: bold; 
     font-size: 1.5rem;
 }
