@@ -160,13 +160,3 @@
     background-color: #f4a65c; /* Un gris un poco más claro */
 }
 
-
-/* --- La Parte Responsive --- */
-
-/* Se aplica cuando la pantalla tiene 600px de ancho o menos (móviles) 
-@media screen and (max-width: 600px) {
-    .navbar ul {
-        /* Cambiamos la dirección de Flexbox a columna 
-        flex-direction: column;
-    }
-}*/
