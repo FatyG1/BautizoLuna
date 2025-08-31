@@ -3,7 +3,7 @@
 /* --- Imagen de la ermita --- */
 .foto {
     width: 150px;
-    height: 150px;
+    height: 175px;
     border-radius: 50%; /* Foto redonda */
     object-fit: cover;
     border: 5px solid #ffffff;
